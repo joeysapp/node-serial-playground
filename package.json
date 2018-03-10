@@ -1,0 +1,27 @@
+{
+  "name": "serial-playground",
+  "version": "1.0.0",
+  "description": "Testing repo for using web sockets to communicate with an arduino uno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeysapp/node-serial-playground.git"
+  },
+  "author": "Joey Sapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeysapp/node-serial-playground/issues"
+  },
+  "homepage": "https://github.com/joeysapp/node-serial-playground#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "johnny-five": "^0.14.1",
+    "path": "^0.12.7",
+    "serialport": "^6.1.1",
+    "socket.io": "^2.0.4",
+    "useragent": "^2.3.0"
+  }
+}
